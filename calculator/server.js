@@ -2,8 +2,10 @@ import express from "express";
 import numbers from "./numbers.js";
 const app = express();
 
-const windowSize = 10;
-var windowCurrState = [];
+// const windowSize = 10;
+
+// var windowPrevState = [];
+// var windowCurrState = [];
 
 app.get("/", (req, res) => {
   res.send("Calculator Microservice!");
